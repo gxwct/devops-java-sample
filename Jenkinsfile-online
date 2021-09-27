@@ -17,6 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'gxwct'
         GITHUB_ACCOUNT = 'gxwct'
         APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {
